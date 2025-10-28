@@ -1,0 +1,67 @@
+/* Basic reset */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --bg: #0b0b0b;          /* page background */
+  --frame: #111;          /* frame backdrop behind the mockup */
+  --shadow: 0 20px 60px rgba(0,0,0,.45);
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  background: var(--bg);
+  color: #eaeaea;
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, sans-serif;
+  line-height: 1.4;
+}
+
+.main {
+  min-height: 100dvh;
+  display: grid;
+  place-items: center;
+  padding: clamp(12px, 3vw, 32px);
+}
+
+/* Framed container that holds the mockup */
+.frame {
+  width: min(1200px, 100%);
+  aspect-ratio: 9 / 16;           /* sensible default for a mobile screenshot; adjusts fluidly */
+  background: var(--frame);
+  border-radius: 24px;
+  overflow: hidden;
+  box-shadow: var(--shadow);
+  display: grid;
+  place-items: center;
+  position: relative;
+}
+
+/* Make the screenshot fill the frame without distortion.
+   To avoid cropping and keep it "exact", we use object-fit: contain.
+   If you prefer edge-to-edge (may crop), switch to object-fit: cover. */
+.frame > img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  display: block;
+  image-rendering: auto;
+  -webkit-user-drag: none;
+  user-select: none;
+}
+
+/* Optional subtle gradient around the edges for polish */
+.frame::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background: radial-gradient(120% 120% at 50% 50%, rgba(255,255,255,0.04) 0%, rgba(255,255,255,0.00) 60%);
+}
