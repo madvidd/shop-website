@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Home — Replica</title>
+  <meta name="description" content="A modern landing page carefully styled to resemble your provided design.">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Header -->
+  <header class="header">
+    <div class="container nav">
+      <a class="logo" href="#">
+        <span class="logo-badge" aria-hidden="true"></span>
+        <span>Replica</span>
+      </a>
+      <nav class="nav-links" aria-label="Primary">
+        <a href="#features">Features</a>
+        <a href="#about">About</a>
+        <a href="#pricing">Pricing</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <button class="nav-cta">Get Started</button>
+      <button class="menu-btn" aria-label="Open menu" onclick="toggleMenu()">
+        <!-- Hamburger icon -->
+        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+          <path d="M4 6h16M4 12h16M4 18h16" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+        </svg>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section class="section">
+      <div class="container hero">
+        <div class="h-copy">
+          <div class="h-kicker">Modern • Fast • Responsive</div>
+          <h1 class="h-title">Build a homepage that matches your design.</h1>
+          <p class="h-sub">This layout uses your design’s palette and spacing rhythm to recreate the look with real HTML, CSS and accessible components.</p>
+          <div class="h-actions">
+            <a class="btn primary" href="#get-started">Get Started</a>
+            <a class="btn" href="#learn-more">Learn More</a>
+          </div>
+          <div class="badges">
+            <span>Deploy on GitHub Pages in minutes</span>
+          </div>
+        </div>
+        <div class="h-visual">
+          <!-- Device-like preview made of real components -->
+          <div class="device">
+            <div class="bar">
+              <span class="dot"></span><span class="dot"></span><span class="dot"></span>
+              <span style="margin-left:8px; color:var(--muted)">Preview</span>
+            </div>
+            <div class="screen">
+              <div class="card">
+                <h4>Welcome</h4>
+                <p style="color:var(--muted)">Your headline and subtext go here. Use this to mirror the structure in your screenshot with real text.</p>
+              </div>
+              <div class="card">
+                <h4>Primary action</h4>
+                <p style="color:var(--muted)">Buttons, links and UI are real and keyboard-accessible.</p>
+              </div>
+              <div class="card" style="display:grid; gap:10px;">
+                <div style="display:flex; gap:8px; align-items:center;">
+                  <div class="dot" style="background:var(--primary);"></div>
+                  <div class="dot" style="background:var(--secondary);"></div>
+                  <div class="dot" style="background:var(--accent);"></div>
+                </div>
+                <p style="color:var(--muted)">Colors are derived from your screenshot to match the vibe, not display the image.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Features -->
+    <section id="features" class="section">
+      <div class="container">
+        <div class="features">
+          <div class="feature">
+            <div class="icon"></div>
+            <h3>Pixel‑conscious</h3>
+            <p style="color:var(--muted)">Spacing and type rhythm emulate modern product homepages.</p>
+          </div>
+          <div class="feature">
+            <div class="icon"></div>
+            <h3>Real HTML</h3>
+            <p style="color:var(--muted)">Links, headings and buttons are semantic and accessible.</p>
+          </div>
+          <div class="feature">
+            <div class="icon"></div>
+            <h3>Themeable</h3>
+            <p style="color:var(--muted)">Edit CSS variables in <code>:root</code> to tune the look in seconds.</p>
+          </div>
+          <div class="feature">
+            <div class="icon"></div>
+            <h3>Responsive</h3>
+            <p style="color:var(--muted)">Works beautifully from phones to desktops with no extra work.</p>
+          </div>
+          <div class="feature">
+            <div class="icon"></div>
+            <h3>Fast</h3>
+            <p style="color:var(--muted)">No frameworks; pure HTML/CSS + a tiny script.</p>
+          </div>
+          <div class="feature">
+            <div class="icon"></div>
+            <h3>Pages‑ready</h3>
+            <p style="color:var(--muted)">Drop into a repo and turn on GitHub Pages.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA stripe -->
+    <section class="section">
+      <div class="container">
+        <div class="cta">
+          <strong>Want this customized to be pixel‑perfect to your screenshot?</strong>
+          <a class="btn" href="#contact">Request fine‑tuning</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="row">
+        <div style="display:flex; align-items:center; gap:10px;">
+          <span class="logo-badge" aria-hidden="true"></span>
+          <span>Replica</span>
+        </div>
+        <div style="display:flex; gap:18px;">
+          <a href="#">Privacy</a>
+          <a href="#">Terms</a>
+          <a href="#">Contact</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="scripts.js"></script>
+</body>
+</html>
