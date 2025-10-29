@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Three-Panel Product Catalog</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main id="app" class="container">
+    <!-- Left Panel: Shops & Prices -->
+    <aside id="panel-left" aria-label="Shops and prices">
+      <div class="sticky">
+        <h2 class="panel-title">Shops & Prices</h2>
+        <div id="selectedProductHeader" class="selected-product-header" aria-live="polite"></div>
+        <ul id="shopList" class="shop-list" role="list"></ul>
+      </div>
+    </aside>
+
+    <!-- Middle Panel: Scrollable Products (single column) -->
+    <section id="panel-middle" aria-label="Products">
+      <h1 class="sr-only">Products</h1>
+      <div id="productList" class="product-list" role="listbox" aria-label="Product list"></div>
+    </section>
+
+    <!-- Right Panel: Category Icons -->
+    <aside id="panel-right" aria-label="Categories">
+      <div class="sticky">
+        <h2 class="panel-title">Categories</h2>
+        <nav id="categoryList" class="category-list" aria-label="Category navigation"></nav>
+      </div>
+    </aside>
+  </main>
+
+  <script type="module" src="app.js"></script>
+</body>
+</html>

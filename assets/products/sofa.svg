@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="360" viewBox="0 0 640 360">
+  <rect width="640" height="360" fill="#10131d"/>
+  <rect x="120" y="160" width="400" height="80" rx="18" fill="#7aa2ff"/>
+  <rect x="140" y="140" width="120" height="40" rx="12" fill="#40c4ff"/>
+  <rect x="380" y="140" width="120" height="40" rx="12" fill="#40c4ff"/>
+  <text x="50%" y="70%" text-anchor="middle" fill="#cde1ff" font-size="28" font-family="system-ui">Modern Sofa</text>
+</svg>
