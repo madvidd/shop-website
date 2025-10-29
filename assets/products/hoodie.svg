@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="360" viewBox="0 0 640 360">
+  <rect width="640" height="360" fill="#10131d"/>
+  <path d="M260 120 L320 90 L380 120 L410 220 L230 220 Z" fill="#7aa2ff" opacity="0.8"/>
+  <text x="50%" y="60%" text-anchor="middle" fill="#cde1ff" font-size="28" font-family="system-ui">Classic Hoodie</text>
+</svg>

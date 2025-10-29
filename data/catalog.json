@@ -1,0 +1,574 @@
+{
+  "categories": [
+    {
+      "id": "shoes",
+      "name": "Shoes",
+      "icon": "assets/icons/shoes.svg"
+    },
+    {
+      "id": "clothes",
+      "name": "Clothes",
+      "icon": "assets/icons/clothes.svg"
+    },
+    {
+      "id": "furniture",
+      "name": "Furniture",
+      "icon": "assets/icons/furniture.svg"
+    },
+    {
+      "id": "technology",
+      "name": "Technology",
+      "icon": "assets/icons/technology.svg"
+    }
+  ],
+  "shops": [
+    {
+      "id": "shop-amazonuk",
+      "name": "Amazon UK",
+      "logo": "assets/shops/shop-amazonuk.svg"
+    },
+    {
+      "id": "shop-argos",
+      "name": "Argos",
+      "logo": "assets/shops/shop-argos.svg"
+    },
+    {
+      "id": "shop-currys",
+      "name": "Currys",
+      "logo": "assets/shops/shop-currys.svg"
+    },
+    {
+      "id": "shop-johnlewis",
+      "name": "John Lewis",
+      "logo": "assets/shops/shop-johnlewis.svg"
+    },
+    {
+      "id": "shop-very",
+      "name": "Very",
+      "logo": "assets/shops/shop-very.svg"
+    },
+    {
+      "id": "shop-asos",
+      "name": "ASOS",
+      "logo": "assets/shops/shop-asos.svg"
+    },
+    {
+      "id": "shop-jdsports",
+      "name": "JD Sports",
+      "logo": "assets/shops/shop-jdsports.svg"
+    },
+    {
+      "id": "shop-nike",
+      "name": "Nike",
+      "logo": "assets/shops/shop-nike.svg"
+    },
+    {
+      "id": "shop-adidas",
+      "name": "Adidas",
+      "logo": "assets/shops/shop-adidas.svg"
+    },
+    {
+      "id": "shop-footlocker",
+      "name": "Foot Locker",
+      "logo": "assets/shops/shop-footlocker.svg"
+    },
+    {
+      "id": "shop-ikea",
+      "name": "IKEA",
+      "logo": "assets/shops/shop-ikea.svg"
+    },
+    {
+      "id": "shop-wayfair",
+      "name": "Wayfair",
+      "logo": "assets/shops/shop-wayfair.svg"
+    },
+    {
+      "id": "shop-dunelm",
+      "name": "Dunelm",
+      "logo": "assets/shops/shop-dunelm.svg"
+    },
+    {
+      "id": "shop-homebase",
+      "name": "Homebase",
+      "logo": "assets/shops/shop-homebase.svg"
+    },
+    {
+      "id": "shop-zara",
+      "name": "Zara",
+      "logo": "assets/shops/shop-zara.svg"
+    },
+    {
+      "id": "shop-hm",
+      "name": "H&M",
+      "logo": "assets/shops/shop-hm.svg"
+    },
+    {
+      "id": "shop-uniqlo",
+      "name": "Uniqlo",
+      "logo": "assets/shops/shop-uniqlo.svg"
+    },
+    {
+      "id": "shop-next",
+      "name": "Next",
+      "logo": "assets/shops/shop-next.svg"
+    }
+  ],
+  "products": [
+    {
+      "id": "prod-shoe-af1",
+      "name": "Nike Air Force 1",
+      "image": "assets/products/prod-shoe-af1.svg",
+      "categoryId": "shoes",
+      "shops": [
+        {
+          "shopId": "shop-jdsports",
+          "price": 121.15,
+          "currency": "GBP",
+          "url": "https://www.jdsports.co.uk/search/N-Nike+Air+Force+1/"
+        },
+        {
+          "shopId": "shop-footlocker",
+          "price": 72.0,
+          "currency": "GBP",
+          "url": "https://www.footlocker.co.uk/en/search?query=Nike+Air+Force+1"
+        },
+        {
+          "shopId": "shop-nike",
+          "price": 92.0,
+          "currency": "GBP",
+          "url": "https://www.nike.com/gb/w?q=Nike+Air+Force+1"
+        },
+        {
+          "shopId": "shop-adidas",
+          "price": 87.86,
+          "currency": "GBP",
+          "url": "https://www.adidas.co.uk/search?q=Nike+Air+Force+1"
+        },
+        {
+          "shopId": "shop-amazonuk",
+          "price": 128.92,
+          "currency": "GBP",
+          "url": "https://www.amazon.co.uk/s?k=Nike+Air+Force+1"
+        }
+      ]
+    },
+    {
+      "id": "prod-shoe-samba",
+      "name": "Adidas Samba",
+      "image": "assets/products/prod-shoe-samba.svg",
+      "categoryId": "shoes",
+      "shops": [
+        {
+          "shopId": "shop-jdsports",
+          "price": 124.14,
+          "currency": "GBP",
+          "url": "https://www.jdsports.co.uk/search/N-Adidas+Samba/"
+        },
+        {
+          "shopId": "shop-footlocker",
+          "price": 141.37,
+          "currency": "GBP",
+          "url": "https://www.footlocker.co.uk/en/search?query=Adidas+Samba"
+        },
+        {
+          "shopId": "shop-nike",
+          "price": 76.96,
+          "currency": "GBP",
+          "url": "https://www.nike.com/gb/w?q=Adidas+Samba"
+        },
+        {
+          "shopId": "shop-adidas",
+          "price": 103.75,
+          "currency": "GBP",
+          "url": "https://www.adidas.co.uk/search?q=Adidas+Samba"
+        },
+        {
+          "shopId": "shop-amazonuk",
+          "price": 72.38,
+          "currency": "GBP",
+          "url": "https://www.amazon.co.uk/s?k=Adidas+Samba"
+        }
+      ]
+    },
+    {
+      "id": "prod-shoe-nb550",
+      "name": "New Balance 550",
+      "image": "assets/products/prod-shoe-nb550.svg",
+      "categoryId": "shoes",
+      "shops": [
+        {
+          "shopId": "shop-jdsports",
+          "price": 87.49,
+          "currency": "GBP",
+          "url": "https://www.jdsports.co.uk/search/N-New+Balance+550/"
+        },
+        {
+          "shopId": "shop-footlocker",
+          "price": 110.43,
+          "currency": "GBP",
+          "url": "https://www.footlocker.co.uk/en/search?query=New+Balance+550"
+        },
+        {
+          "shopId": "shop-nike",
+          "price": 72.12,
+          "currency": "GBP",
+          "url": "https://www.nike.com/gb/w?q=New+Balance+550"
+        },
+        {
+          "shopId": "shop-adidas",
+          "price": 85.91,
+          "currency": "GBP",
+          "url": "https://www.adidas.co.uk/search?q=New+Balance+550"
+        },
+        {
+          "shopId": "shop-amazonuk",
+          "price": 121.99,
+          "currency": "GBP",
+          "url": "https://www.amazon.co.uk/s?k=New+Balance+550"
+        }
+      ]
+    },
+    {
+      "id": "prod-cloth-501",
+      "name": "Levi's 501 Jeans",
+      "image": "assets/products/prod-cloth-501.svg",
+      "categoryId": "clothes",
+      "shops": [
+        {
+          "shopId": "shop-asos",
+          "price": 74.49,
+          "currency": "GBP",
+          "url": "https://www.asos.com/search/?q=Levi%27s+501+Jeans"
+        },
+        {
+          "shopId": "shop-zara",
+          "price": 42.04,
+          "currency": "GBP",
+          "url": "https://www.zara.com/uk/en/search?searchTerm=Levi%27s+501+Jeans"
+        },
+        {
+          "shopId": "shop-hm",
+          "price": 78.93,
+          "currency": "GBP",
+          "url": "https://www2.hm.com/en_gb/search-results.html?q=Levi%27s+501+Jeans"
+        },
+        {
+          "shopId": "shop-uniqlo",
+          "price": 100.94,
+          "currency": "GBP",
+          "url": "https://www.uniqlo.com/uk/en/search?q=Levi%27s+501+Jeans"
+        },
+        {
+          "shopId": "shop-next",
+          "price": 20.65,
+          "currency": "GBP",
+          "url": "https://www.next.co.uk/search?w=Levi%27s+501+Jeans"
+        }
+      ]
+    },
+    {
+      "id": "prod-cloth-uld",
+      "name": "Uniqlo Ultra Light Down Jacket",
+      "image": "assets/products/prod-cloth-uld.svg",
+      "categoryId": "clothes",
+      "shops": [
+        {
+          "shopId": "shop-asos",
+          "price": 100.58,
+          "currency": "GBP",
+          "url": "https://www.asos.com/search/?q=Uniqlo+Ultra+Light+Down+Jacket"
+        },
+        {
+          "shopId": "shop-zara",
+          "price": 89.81,
+          "currency": "GBP",
+          "url": "https://www.zara.com/uk/en/search?searchTerm=Uniqlo+Ultra+Light+Down+Jacket"
+        },
+        {
+          "shopId": "shop-hm",
+          "price": 54.03,
+          "currency": "GBP",
+          "url": "https://www2.hm.com/en_gb/search-results.html?q=Uniqlo+Ultra+Light+Down+Jacket"
+        },
+        {
+          "shopId": "shop-uniqlo",
+          "price": 35.55,
+          "currency": "GBP",
+          "url": "https://www.uniqlo.com/uk/en/search?q=Uniqlo+Ultra+Light+Down+Jacket"
+        },
+        {
+          "shopId": "shop-next",
+          "price": 115.72,
+          "currency": "GBP",
+          "url": "https://www.next.co.uk/search?w=Uniqlo+Ultra+Light+Down+Jacket"
+        }
+      ]
+    },
+    {
+      "id": "prod-cloth-linen",
+      "name": "Zara Linen Shirt",
+      "image": "assets/products/prod-cloth-linen.svg",
+      "categoryId": "clothes",
+      "shops": [
+        {
+          "shopId": "shop-asos",
+          "price": 53.66,
+          "currency": "GBP",
+          "url": "https://www.asos.com/search/?q=Zara+Linen+Shirt"
+        },
+        {
+          "shopId": "shop-zara",
+          "price": 29.27,
+          "currency": "GBP",
+          "url": "https://www.zara.com/uk/en/search?searchTerm=Zara+Linen+Shirt"
+        },
+        {
+          "shopId": "shop-hm",
+          "price": 29.67,
+          "currency": "GBP",
+          "url": "https://www2.hm.com/en_gb/search-results.html?q=Zara+Linen+Shirt"
+        },
+        {
+          "shopId": "shop-uniqlo",
+          "price": 104.75,
+          "currency": "GBP",
+          "url": "https://www.uniqlo.com/uk/en/search?q=Zara+Linen+Shirt"
+        },
+        {
+          "shopId": "shop-next",
+          "price": 80.37,
+          "currency": "GBP",
+          "url": "https://www.next.co.uk/search?w=Zara+Linen+Shirt"
+        }
+      ]
+    },
+    {
+      "id": "prod-furn-kallax",
+      "name": "IKEA KALLAX Shelf Unit",
+      "image": "assets/products/prod-furn-kallax.svg",
+      "categoryId": "furniture",
+      "shops": [
+        {
+          "shopId": "shop-ikea",
+          "price": 664.99,
+          "currency": "GBP",
+          "url": "https://www.ikea.com/gb/en/search/?q=IKEA+KALLAX+Shelf+Unit"
+        },
+        {
+          "shopId": "shop-wayfair",
+          "price": 610.81,
+          "currency": "GBP",
+          "url": "https://www.wayfair.co.uk/keyword.php?keyword=IKEA+KALLAX+Shelf+Unit"
+        },
+        {
+          "shopId": "shop-dunelm",
+          "price": 475.36,
+          "currency": "GBP",
+          "url": "https://www.dunelm.com/search?query=IKEA+KALLAX+Shelf+Unit"
+        },
+        {
+          "shopId": "shop-homebase",
+          "price": 781.18,
+          "currency": "GBP",
+          "url": "https://www.homebase.co.uk/search?term=IKEA+KALLAX+Shelf+Unit"
+        },
+        {
+          "shopId": "shop-argos",
+          "price": 364.97,
+          "currency": "GBP",
+          "url": "https://www.argos.co.uk/search/IKEA+KALLAX+Shelf+Unit/"
+        }
+      ]
+    },
+    {
+      "id": "prod-furn-chair",
+      "name": "Dunelm Teddy Accent Chair",
+      "image": "assets/products/prod-furn-chair.svg",
+      "categoryId": "furniture",
+      "shops": [
+        {
+          "shopId": "shop-ikea",
+          "price": 486.43,
+          "currency": "GBP",
+          "url": "https://www.ikea.com/gb/en/search/?q=Dunelm+Teddy+Accent+Chair"
+        },
+        {
+          "shopId": "shop-wayfair",
+          "price": 680.58,
+          "currency": "GBP",
+          "url": "https://www.wayfair.co.uk/keyword.php?keyword=Dunelm+Teddy+Accent+Chair"
+        },
+        {
+          "shopId": "shop-dunelm",
+          "price": 532.96,
+          "currency": "GBP",
+          "url": "https://www.dunelm.com/search?query=Dunelm+Teddy+Accent+Chair"
+        },
+        {
+          "shopId": "shop-homebase",
+          "price": 703.19,
+          "currency": "GBP",
+          "url": "https://www.homebase.co.uk/search?term=Dunelm+Teddy+Accent+Chair"
+        },
+        {
+          "shopId": "shop-argos",
+          "price": 504.15,
+          "currency": "GBP",
+          "url": "https://www.argos.co.uk/search/Dunelm+Teddy+Accent+Chair/"
+        }
+      ]
+    },
+    {
+      "id": "prod-furn-winston",
+      "name": "Wayfair Winston Sofa",
+      "image": "assets/products/prod-furn-winston.svg",
+      "categoryId": "furniture",
+      "shops": [
+        {
+          "shopId": "shop-ikea",
+          "price": 593.2,
+          "currency": "GBP",
+          "url": "https://www.ikea.com/gb/en/search/?q=Wayfair+Winston+Sofa"
+        },
+        {
+          "shopId": "shop-wayfair",
+          "price": 132.08,
+          "currency": "GBP",
+          "url": "https://www.wayfair.co.uk/keyword.php?keyword=Wayfair+Winston+Sofa"
+        },
+        {
+          "shopId": "shop-dunelm",
+          "price": 259.53,
+          "currency": "GBP",
+          "url": "https://www.dunelm.com/search?query=Wayfair+Winston+Sofa"
+        },
+        {
+          "shopId": "shop-homebase",
+          "price": 302.57,
+          "currency": "GBP",
+          "url": "https://www.homebase.co.uk/search?term=Wayfair+Winston+Sofa"
+        },
+        {
+          "shopId": "shop-argos",
+          "price": 155.85,
+          "currency": "GBP",
+          "url": "https://www.argos.co.uk/search/Wayfair+Winston+Sofa/"
+        }
+      ]
+    },
+    {
+      "id": "prod-tech-iphone15",
+      "name": "Apple iPhone 15",
+      "image": "assets/products/prod-tech-iphone15.svg",
+      "categoryId": "technology",
+      "shops": [
+        {
+          "shopId": "shop-currys",
+          "price": 432.79,
+          "currency": "GBP",
+          "url": "https://www.currys.co.uk/search?q=Apple+iPhone+15"
+        },
+        {
+          "shopId": "shop-argos",
+          "price": 301.0,
+          "currency": "GBP",
+          "url": "https://www.argos.co.uk/search/Apple+iPhone+15/"
+        },
+        {
+          "shopId": "shop-amazonuk",
+          "price": 477.97,
+          "currency": "GBP",
+          "url": "https://www.amazon.co.uk/s?k=Apple+iPhone+15"
+        },
+        {
+          "shopId": "shop-johnlewis",
+          "price": 835.68,
+          "currency": "GBP",
+          "url": "https://www.johnlewis.com/search?search-term=Apple+iPhone+15"
+        },
+        {
+          "shopId": "shop-very",
+          "price": 564.83,
+          "currency": "GBP",
+          "url": "https://www.very.co.uk/e/q/Apple+iPhone+15.end"
+        }
+      ]
+    },
+    {
+      "id": "prod-tech-s24",
+      "name": "Samsung Galaxy S24",
+      "image": "assets/products/prod-tech-s24.svg",
+      "categoryId": "technology",
+      "shops": [
+        {
+          "shopId": "shop-currys",
+          "price": 570.18,
+          "currency": "GBP",
+          "url": "https://www.currys.co.uk/search?q=Samsung+Galaxy+S24"
+        },
+        {
+          "shopId": "shop-argos",
+          "price": 409.51,
+          "currency": "GBP",
+          "url": "https://www.argos.co.uk/search/Samsung+Galaxy+S24/"
+        },
+        {
+          "shopId": "shop-amazonuk",
+          "price": 466.98,
+          "currency": "GBP",
+          "url": "https://www.amazon.co.uk/s?k=Samsung+Galaxy+S24"
+        },
+        {
+          "shopId": "shop-johnlewis",
+          "price": 1136.65,
+          "currency": "GBP",
+          "url": "https://www.johnlewis.com/search?search-term=Samsung+Galaxy+S24"
+        },
+        {
+          "shopId": "shop-very",
+          "price": 848.04,
+          "currency": "GBP",
+          "url": "https://www.very.co.uk/e/q/Samsung+Galaxy+S24.end"
+        }
+      ]
+    },
+    {
+      "id": "prod-tech-xm5",
+      "name": "Sony WH-1000XM5",
+      "image": "assets/products/prod-tech-xm5.svg",
+      "categoryId": "technology",
+      "shops": [
+        {
+          "shopId": "shop-currys",
+          "price": 809.13,
+          "currency": "GBP",
+          "url": "https://www.currys.co.uk/search?q=Sony+WH-1000XM5"
+        },
+        {
+          "shopId": "shop-argos",
+          "price": 371.14,
+          "currency": "GBP",
+          "url": "https://www.argos.co.uk/search/Sony+WH-1000XM5/"
+        },
+        {
+          "shopId": "shop-amazonuk",
+          "price": 929.13,
+          "currency": "GBP",
+          "url": "https://www.amazon.co.uk/s?k=Sony+WH-1000XM5"
+        },
+        {
+          "shopId": "shop-johnlewis",
+          "price": 363.4,
+          "currency": "GBP",
+          "url": "https://www.johnlewis.com/search?search-term=Sony+WH-1000XM5"
+        },
+        {
+          "shopId": "shop-very",
+          "price": 579.46,
+          "currency": "GBP",
+          "url": "https://www.very.co.uk/e/q/Sony+WH-1000XM5.end"
+        }
+      ]
+    }
+  ]
+}
