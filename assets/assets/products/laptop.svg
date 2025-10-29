@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="360" viewBox="0 0 640 360">
+  <rect width="640" height="360" fill="#10131d"/>
+  <rect x="160" y="90" width="320" height="180" rx="12" fill="#7aa2ff"/>
+  <rect x="120" y="270" width="400" height="20" rx="10" fill="#40c4ff"/>
+  <text x="50%" y="58%" text-anchor="middle" fill="#cde1ff" font-size="28" font-family="system-ui">Laptop 14"</text>
+</svg>

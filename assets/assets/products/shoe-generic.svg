@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="360" viewBox="0 0 640 360">
+  <defs><linearGradient id="g" x1="0" x2="1"><stop stop-color="#10131d"/><stop offset="1" stop-color="#1a1f2c"/></linearGradient></defs>
+  <rect width="640" height="360" fill="url(#g)"/>
+  <g fill="none" stroke="#7aa2ff" stroke-width="4">
+    <path d="M80,240 C120,180 180,160 260,180 C320,196 380,200 440,180 C500,160 520,200 560,240" />
+  </g>
+  <text x="50%" y="55%" text-anchor="middle" fill="#cde1ff" font-size="28" font-family="system-ui">Shoe Product</text>
+</svg>
